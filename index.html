@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>Lavuri</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+    <link rel="stylesheet" href="style/css/normalize.css">
+    <link rel="stylesheet" href="style/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="" class="header__logo">
+                    <img src="images/logo-header.svg" alt="">
+                </a>
+                <nav class="nav_menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="#" class="menu__item-link">Наші роботи</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__item-link">Переваги</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__item-link">Етапи</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__item-link">Матеріали</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__item-link">ТаБу</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__item-link">Вартість</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__item-link">Опт</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__item-link">Відгуки</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a class="header__phone-btn" href="tel:+380631788384">+38 (063) 178 83 84</a>
+                <div class="language__menu">
+                    <a class="language__menu-ua ua active" href="#">UA</a>
+                    <span>/</span>
+                    <a class="language__menu-ru ru" href="#">RU</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero__inner">
+                    <div class="hero__content-left">
+                        <h1 class="hero__title">Шиємо іграшки <br> на замовлення <br> по вашим малюнкам</h1>
+                        <h6 class="hero__title-subtitle">від одного екземпляра</h6>
+                        <p class="hero__title-text">Здивуйте своїх малюків, друзів або близьких особливими подарунками, створеними з любов'ю та увагою!</p>
+                        <div class="hero__list">
+                            <a class="hero__list-order" href="#">Замовити іграшку</a>
+                            <a class="hero__list-advice" href="#">Консультація</a>
+                        </div>
+                        <div class="hero__social-contacts">
+                            <p class="hero__social-title">
+                                Ми в Соц.мережах:
+                            </p>
+                            <ul class="hero__social-list">
+                                <li class="hero__social-item">
+                                    <a href="#" class="hero__social-link"><img src="images/telegram.svg" alt="">
+                                </a>
+                            </li>
+                                <li class="hero__social-item">
+                                    <a href="#" class="hero__social-link"><img src="images/viber.svg" alt="">
+                                </a>
+                            </li>
+                                <li class="hero__social-item">
+                                    <a href="#" class="hero__social-link"><img src="images/watsapp.svg" alt="">
+                                </a>
+                            </li>
+                                <li class="hero__social-item">
+                                    <a href="#" class="hero__social-link"><img src="images/instagram.svg" alt="">
+                                </a>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- <div class="hero__content-right">
+                    </div> -->
+                    <picture class="content-right">
+                      <img src="images/rigth-block-img.png" alt="">
+                    </picture>
+                </div>
+            </div>
+        </section>
+        <section class="works">
+            <div class="works__inner container">
+                <h2 class="works__title">
+                    <span class="orange-span">Наші </span>роботи</h2>
+                <div class="works__content">
+                    <div class="works__slider">
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide"><img src="images/card-1.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/card-2.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/card-3.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/card-4.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/card-5.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/card-1.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/card-2.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/card-3.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/card-4.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/card-5.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/card-1.jpg" alt=""></div>
+                          </div>
+                        </div>
+                        <div class="blog__button btn-prev swiperPrev" id="swiperPrev"></div>
+                        <div class="blog__button btn-next swiperNext" id="swiperNext"></div>
+                        <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <section class="advantages">
+            <div class="container">
+            <div class="advantages__inner">
+                <div class="advantages__left-box">
+                    <img src="images/advantages-img.jpg" alt="">
+                </div>
+                <div class="advantages__content">
+                    <h2 class="advantages__content-title">
+                        Чому <span class="orange-span">обирають</span> нас
+                    </h2>
+                    <p class="advantages__content-subtitle">Lavuri - ваш ідеальний вибір у сфері пошиття іграшок за малюнками дітей. Ми пропонуємо індивідуальний підхід до кожного замовлення, забезпечуючи високу якість та увагу до деталей.</p>
+                    <ul class="advantages__content-list">
+                        <li class="advantages__content-item master-item">
+                            <h3 class="advantages__content__item-title">Досвідчені майстри</h3>
+                            <p class="advantages__content__item-text">
+                                Наші майстри мають більше 10 років досвіду у виготовленні іграшок як індивідуальних так і корпоративних замовлень
+                            </p>
+                    </li>
+                        <li class="advantages__content-item quality-item">
+                            <h3 class="advantages__content__item-title">Висока якість</h3>
+                            <p class="advantages__content__item-text">
+                                Ми використовуємо гіпоалергенні матеріали, які дуже добре реагують на вологу, тримають форму, швидко сохнуть та не електризуються. Наші іграшки можна прати
+                            </p>
+                    </li>
+                        <li class="advantages__content-item hand-made-item">
+                            <h3 class="advantages__content__item-title">Ручна робота</h3>
+                            <p class="advantages__content__item-text">
+                                У виготовленні кожної іграшки використовується 100% ручна робота. Ми намагаємось робити іграшки максимально відповідними до вашого замовлення, враховуючи всі деталі та пропорції
+                            </p>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="steps ">
+            <div class="container decor-bg">
+                <h2 class="steps__title">
+                    Етапи роботи
+                </h2>
+                <div class="steps__inner steps__inner-decor">
+                    <ol class="steps__list step__list-content ">
+                        <li class="steps__item steps__item-odd">
+                            <h3 class="steps__item-title">Ідея</h3>
+                            <p class="steps__item-text">
+                                Ви відправляєте нам фото персонажа або малюнка. Ми підбираємо необхідні матеріали для іграшки 
+                            </p>
+                        </li>
+                        <li class="steps__item steps__item-odd">
+                            <h3 class="steps__item-title">Калькуляція</h3>
+                            <p class="steps__item-text">
+                                Наш спеціаліст зв’язується з вами для узгодження деталей та озвучення вартості та термінів виготовлення іграшки.
+                            </p>
+                        </li>
+                        <li class="steps__item steps__item-even">
+                            <h3 class="steps__item-title">Реалізаія</h3>
+                            <p class="steps__item-text">
+                                Після внесення оплати замовлення передається в роботу для пошиття іграшки
+                            </p>
+                        </li>
+                        <li class="steps__item steps__item-even">
+                            <h3 class="steps__item-title">Доставка</h3>
+                            <p class="steps__item-text">
+                                Відправляємо вам фото готової іграшки та номер накладної перевізника (Нової Пошти, Укрпошти). Доставка сплачується при отриманні.
+                            </p>
+                        </li>
+                    </ol>
+                    <button type="button" class="steps__btn">Замовити іграшку</button>
+                </div>
+            </div>
+        </section>
+        <section class="materials">
+            <div class="container">
+                <h2 class="materials__title">Матеріали</h2>
+            
+            <div class="materials__inner">
+                <div class="materials__card">
+                    <img src="images/leather-card.jpg" alt="">
+                    <div class="materials__card-fotter">
+                        <p class="materials__card-text">Штучна шкіра</p>
+                    </div>
+                </div>
+                <div class="materials__card">
+                    <img src="images/cotton-cadr.jpg" alt="">
+                    <div class="materials__card-fotter">
+                        <p class="materials__card-text">Хлопок</p>
+                    </div>
+                </div>
+                <div class="materials__card">
+                    <img src="images/fur-card.jpg" alt="">
+                    <div class="materials__card-fotter">
+                        <p class="materials__card-text">Штучне хутро</p>
+                    </div>
+                </div>
+                <div class="materials__card">
+                    <img src="images/felt-card.jpg" alt="">
+                    <div class="materials__card-fotter">
+                        <p class="materials__card-text">Фетр</p>
+                    </div>
+                </div>
+                <div class="materials__card">
+                    <img src="images/fleece-card.jpg" alt="">
+                    <div class="materials__card-fotter">
+                        <p class="materials__card-text">Фліс</p>
+                    </div>
+                </div>
+                    <div class="materials__card">
+                        <img src="images/linen-card.jpg" alt="">
+                        <div class="materials__card-fotter">
+                            <p class="materials__card-text">Льон</p>
+                        </div>
+                    </div>
+                    <div class="materials__card">
+                        <img src="images/felt-card.jpg" alt="">
+                        <div class="materials__card-fotter">
+                            <p class="materials__card-text">Плюшева тканина</p>
+                        </div>
+                    </div>
+                    <div class="materials__card">
+                        <img src="images/velvel-card.jpg" alt="">
+                        <div class="materials__card-fotter">
+                            <p class="materials__card-text">Вельвет</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        </section>
+        <section class="rewiev">
+            <div class="container">
+            <h2 class="rewiev__title"><span class="orange-span">Відгуки</span> наших клієнтів</h2>
+            <div class="rewiev__inner">
+                <div class="rewiev__inner-content">
+                    <div class="rewiev__slider">
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide"><img src="images/image-rewiev-1.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/image-rewiev-2.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/image-rewiev-3.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/image-rewiev-4.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/image-rewiev-1.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/image-rewiev-2.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/image-rewiev-3.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/image-rewiev-4.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/image-rewiev-1.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/image-rewiev-2.jpg" alt=""></div>
+                          </div>
+                        </div>
+                        <div class="blog__button btn-prev swiperPrev" id="swiperPrev"></div>
+                        <div class="blog__button btn-next swiperNext" id="swiperNext"></div>
+                        <div class="rewiev__swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+        <ul class="rewiev__bottom-list">
+            <li class="rewiev__bottom-item">
+                <a href="#" class="rewiev__bottom-item__link">@lavuri.toys</a>
+            </li>
+            <li class="rewiev__bottom-item">
+                <a href="#" class="rewiev__bottom-item__link">@lavuri.toys</a>
+            </li>
+            <li class="rewiev__bottom-item">
+                <a href="#" class="rewiev__bottom-item__link">@lavuri.toys</a>
+            </li>
+            <li class="rewiev__bottom-item">
+                <a href="#" class="rewiev__bottom-item__link">@lavuri.toys</a>
+            </li>
+            <li class="rewiev__bottom-item">
+                <a href="#" class="rewiev__bottom-item__link">@lavuri.toys</a>
+            </li>
+        </ul>
+        </section>
+        <section class="dnwork">
+            <div class="container">
+            <h2 class="dnwork__title">Ми <span class="orange-span">НЕ</span> робимо</h2>
+            <div class="dnwork__inner">
+                <div class="dnwork__card">
+                    <img src="images/dnwork-card-1.jpg" alt="">
+                    <div class="dnwork__card-bottom">
+                        <h3 class="dnwork__card-title">Компроміс щодо якості:</h3>
+                        <p class="dnwork__card-text">Наша компанія ніколи не піддає якість виробництва іграшок на перше місце. Ми не робимо компромісів у використанні високоякісних матеріалів та професійних технологій, щоб забезпечити максимальну якість кожного виробу.</p>
+                    </div>
+                </div>
+                <div class="dnwork__card">
+                    <img src="images/dnwork-card-2.jpg" alt="">
+                    <div class="dnwork__card-bottom">
+                        <h3 class="dnwork__card-title">Використання низькоякісних матеріалів:</h3>
+                        <p class="dnwork__card-text">Ми відмовляємося від використання матеріалів, які не відповідають нашим високим стандартам якості. Наші іграшки створюються лише з використанням найкращих і безпечних матеріалів, що забезпечує їхню довговічність та безпеку.</p>
+                    </div>
+                </div>
+                <div class="dnwork__card">
+                    <img src="images/dnwork-card-3.jpg" alt="">
+                    <div class="dnwork__card-bottom">
+                        <h3 class="dnwork__card-title">Зниження стандартів виробництва:</h3>
+                        <p class="dnwork__card-text">Ми завжди дотримуємося внутрішніх стандартів, які гарантують високу якість кожного виробу. Наша мета - задовольнити потреби навіть найвимогливіших клієнтів, тому ми не знижуємо планку якості виробництва ні на крок.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="send">
+            <div class="decor__container">
+                <div class="container ">
+                    <div class="send__inner-left">
+                        <h2 class="send__left-title">ДІЗНАЙТЕСЬ ВАРТІСТЬ ТА ТЕРМІНИ ПОШИВУ ВАШОЇ ІГРАШКИ</h2>
+                        <p class="send__left-subtitle">Заповніть форму щоб отримати детальну інформацію</p>
+                        <form action="" class="send__form">
+                            <input class="send__form-name" type="text" name="" id="" placeholder="І'мя">
+                            <input class="send__form-phone" type="tel" name="" id="" placeholder="+380">
+                            <label class="form__load-area">
+                                <input class="form__load-file" type="file" name="file" id="file" placeholder="Завантажити фото" >
+                                <label for="file" class="form__label-file"  data-multiple-caption="{count} files selected" multiple>
+                                    <img src="images/load-icon.svg" alt="">
+                                </label>
+                                <span class="form__file-name" id="fileName" ></span>
+                            <!--     <input class="form__file-name" type="text" name="" id="fileName" placeholder="Завантажити фото" value=""> -->
+                            </label>
+                            <textarea class="form__textarea" name="" id="" cols="30" rows="10" placeholder="Завантажити фото"></textarea>
+                            <label class="form__label">
+                                <input class="checkbox" type="checkbox" name="" id="">
+                                <span class="check-style"></span>
+                                <p class="checkbox__text">
+                                    Відправивши заявку, ви надаєте згоду на обробку своїх персональний даних згідно Політики конфедеційності
+                                </p>
+                            </label>
+                            <button class="send__btn">Замовити іграшку</button>
+                        </form>
+                    </div>
+            </div>
+            
+        </div>
+        </section>
+        <section class="opt opt__bg">
+            <div class="container">
+                <div class="opt__inner">
+                    <div class="opt__left-box">
+                        <img src="images/opt-left.png" alt="">
+                    </div>
+                    <div class="opt__content">
+                        <h2 class="opt__content-title">
+                            <span class="orange-span">Опт</span> Lavuri
+                        </h2>
+                        <p class="opt__content-subtitle">У нас ви можете придбати м’які іграшки оптом з вашим логотипом від 100 шт. Подарунки у вашому фірмовому стилі завжди будуть унікальними та впізнаваними.</p>
+                        <ul class="opt__content-list">
+                            <li class="opt__content-item opt-reklama">
+                                <h3 class="opt__content__item-title">Додаткова реклама</h3>
+                                <p class="opt__content__item-text">
+                                    Корпоративна іграшка з логотипом — ще один спосіб розповісти про себе партнерам та покупцям. Це вид реклами, який постійно та ненав’язливо нагадуватиме про вашу компанію.
+                                </p>
+                        </li>
+                            <li class="opt__content-item opt-price">
+                                <h3 class="opt__content__item-title">Доступна ціна</h3>
+                                <p class="opt__content__item-text">
+                                    Чим більше ви замовляєте, тим приємніша ціна за кожну одиницю.
+                                </p>
+                        </li>
+                            <li class="opt__content-item opt-star">
+                                <h3 class="opt__content__item-title">Індивідуальний підхід та повний супровід</h3>
+                                <p class="opt__content__item-text">
+                                    Ми надаємо персоналізований підхід та супровід на кожному етапі виробництва, починаючи від створення макету і закінчуючи пошиттям усього тиражу.
+                                </p>
+                        </li>
+                        </ul>
+                        <button class="opt__btn">Детальніше</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__logo-bar">
+                    <a href="#" class="footer__logo">
+                        <img src="images/footer-logo.svg" alt="">
+                    </a>
+                    <p class="footer__copy">© Made in Lavuri, 2024</p>
+                </div>
+                <ul class="footer__nav-list">
+                    <li class="footer__nav-item__title">
+                        Навігація
+                    </li>
+                    <li class="footer__nav-item">
+                        <p class="footer__item-text">Нашіроботи</p>
+                    </li>
+                    <li class="footer__nav-item">
+                        <p class="footer__item-text">Переваги</p>
+                    </li>
+                    <li class="footer__nav-item">
+                        <p class="footer__item-text">Етапи</p>
+                    </li>
+                    <li class="footer__nav-item">
+                        <p class="footer__item-text">Матеріали</p>
+                    </li>
+                    <li class="footer__nav-item">
+                        <p class="footer__item-text">ТаБу</p>
+                    </li>
+                    <li class="footer__nav-item">
+                        <p class="footer__item-text">Вартість</p>
+                    </li>
+                    <li class="footer__nav-item">
+                        <p class="footer__item-text">Опт</p>
+                    </li>
+                    <li class="footer__nav-item">
+                        <p class="footer__item-text">Відгуки</p>
+                    </li>
+                </ul>
+                <ul class="footer__contact-list">
+                    <li class="footer__contacts-list__title">
+                        Контакти
+                    </li>
+                    <li class="footer__contact-item">
+                        <a href="tel:+380631788384" class="footer__contact__item-link">38 (063) 178 83 84</a>
+                    </li>
+                    <li class="footer__contact-item">
+                        <a href="mailto:lavuri.toys@gmail.com" class="footer__contact__item-link">lavuri.toys@gmail.com</a>
+                    </li>
+                    <li class="footer__social">
+                        <ul class="footer__social-list">
+                            <li class="footer__social-item">
+                                <a href="" class="footer__social-link">
+                                    <img src="images/footer-telegram.svg" alt="">
+                                </a>
+                                </li>
+                            <li class="footer__social-item">
+                                <a href="" class="footer__social-link">
+                                    <img src="images/footer-instagram.svg" alt="">
+                                </a>
+                                </li>
+                            <li class="footer__social-item">
+                                <a href="" class="footer__social-link">
+                                    <img src="images/footer-viber.svg" alt="">
+                                </a>
+                                </li>
+                            <li class="footer__social-item">
+                                <a href="" class="footer__social-link">
+                                    <img src="images/footer-whatsapp.svg" alt="">
+                                </a>
+                                </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
