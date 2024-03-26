@@ -820,7 +820,7 @@ color:rgb(68, 119, 119);
     width: 359px;
     height: 314px;
     bottom: 0px;
-    right: 520px;
+    right: 584px;
     z-index: -2;
 }
 .decor__container::after {
@@ -830,7 +830,7 @@ color:rgb(68, 119, 119);
     width: 245px;
     height: 171px;
     bottom: 0;
-    right: 272px;
+    right: 288px;
     z-index: -2;
 }
 .send__inner-left {
