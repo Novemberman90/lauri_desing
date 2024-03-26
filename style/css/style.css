@@ -1142,6 +1142,12 @@ color:rgb(68, 119, 119);
     color: #fff;
     text-align: left;
 }
+.desinger {
+  color: #fff;
+}
+.desinger a:hover {
+  filter: drop-shadow(#fff 3px 3px 10px);
+}
 .footer__nav-list {
     color: #fff;
     line-height: 22px;
