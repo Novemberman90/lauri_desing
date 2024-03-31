@@ -1286,5 +1286,36 @@ color:rgb(68, 119, 119);
     .hero__list-order {
     width: 390px;
     }
-
+  /* works */
+  .works {
+    padding: 50px 0;
+  }
+  .works::before {
+    content:none;
+  }
+  .works__inner {
+    border-radius: 0;
+  }
+    .works__slider {
+      width: 430px;
+      padding: 40px 0;
+    }
+    .blog__button {
+      display: none;
+    }
+    .works__slider {
+    width: 430px;
+    margin: 0 auto;
+    text-align: center;
+    }
+    .works__title {
+          margin: 0 0 30px 0;
+    }
+    .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    width: 34px;
+    }
+    .swiper-pagination-bullet {
+    width: 20px;
+    height: 3px;
+    }
 }
