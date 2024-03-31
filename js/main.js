@@ -21,6 +21,7 @@ let swiper = new Swiper(".works__slider", {
       breakpoints: {
         0: {
           slidesPerView: 1.5,
+          centeredSlides: true,
         },
         430:{
           centeredSlides: true,
