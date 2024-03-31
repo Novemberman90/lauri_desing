@@ -18,6 +18,20 @@ let swiper = new Swiper(".works__slider", {
         nextEl: ".swiperNext",
         prevEl: ".swiperPrev",
       },
+      breakpoints: {
+        0: {
+          slidesPerView: 1.5,
+        },
+        430:{
+          centeredSlides: true,
+          slidesPerView: 1.7,
+            spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 5,
+          spaceBetween: 20,
+        }
+      },
   });
 
 
