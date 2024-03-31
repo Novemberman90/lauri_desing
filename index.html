@@ -23,39 +23,51 @@
                     <img src="images/logo-header.svg" alt="">
                 </a>
                 <nav class="nav_menu">
-                    <ul class="menu__list">
-                        <li class="menu__item">
+                  <div class="menu__btn">
+                    <span></span>
+                  </div>
+                    <ul class="menu__list menu__list-mobile">
+                        <li class="menu__item menu__item-mobil">
                             <a href="#" class="menu__item-link">Наші роботи</a>
                         </li>
-                        <li class="menu__item">
+                        <li class="menu__item menu__item-mobil">
                             <a href="#" class="menu__item-link">Переваги</a>
                         </li>
-                        <li class="menu__item">
+                        <li class="menu__item menu__item-mobil">
                             <a href="#" class="menu__item-link">Етапи</a>
                         </li>
-                        <li class="menu__item">
+                        <li class="menu__item menu__item-mobil">
                             <a href="#" class="menu__item-link">Матеріали</a>
                         </li>
-                        <li class="menu__item">
+                        <li class="menu__item menu__item-mobil">
                             <a href="#" class="menu__item-link">ТаБу</a>
                         </li>
-                        <li class="menu__item">
+                        <li class="menu__item menu__item-mobil">
                             <a href="#" class="menu__item-link">Вартість</a>
                         </li>
-                        <li class="menu__item">
+                        <li class="menu__item menu__item-mobil">
                             <a href="#" class="menu__item-link">Опт</a>
                         </li>
                         <li class="menu__item">
                             <a href="#" class="menu__item-link">Відгуки</a>
                         </li>
+                        <li class="menu__item menu__item-mobil">
+                          <a class="header__phone-btn" href="tel:+380631788384">+38 (063) 178 83 84</a>
+                        </li>
+                        <li class="language__menu menu__item-mobil">
+                              <a class="language__menu-ua ua active" href="#">UA</a> 
+                              <span>/</span> 
+                              <a class="language__menu-ru ru" href="#">RU</a>
+                        </li>
                     </ul>
+                    
                 </nav>
-                <a class="header__phone-btn" href="tel:+380631788384">+38 (063) 178 83 84</a>
+<!--                 <a class="header__phone-btn" href="tel:+380631788384">+38 (063) 178 83 84</a>
                 <div class="language__menu">
                     <a class="language__menu-ua ua active" href="#">UA</a>
                     <span>/</span>
                     <a class="language__menu-ru ru" href="#">RU</a>
-                </div>
+                </div> -->
             </div>
         </div>
     </header>
@@ -63,6 +75,10 @@
         <section class="hero">
             <div class="container">
                 <div class="hero__inner">
+                                      <picture class="content-right">
+                                        <source srcset="images/hero-m.jpeg" media="(max-width: 480px)">
+                                        <img class="hero-img-L" src="images/rigth-block-img.png" alt="">
+                                      </picture>
                     <div class="hero__content-left">
                         <h1 class="hero__title">Шиємо іграшки <br> на замовлення <br> по вашим малюнкам</h1>
                         <h6 class="hero__title-subtitle">від одного екземпляра</h6>
@@ -97,9 +113,10 @@
                     </div>
                     <!-- <div class="hero__content-right">
                     </div> -->
-                    <picture class="content-right">
-                      <img src="images/rigth-block-img.png" alt="">
-                    </picture>
+<!--                     <picture class="content-right">
+                      <source srcset="images/hero-m.jpeg" media="(max-width: 480px)">
+                      <img class="hero-img-L" src="images/rigth-block-img.png" alt="">
+                    </picture> -->
                 </div>
             </div>
         </section>
