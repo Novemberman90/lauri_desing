@@ -1240,7 +1240,26 @@ color:rgb(68, 119, 119);
     }
     .content-right {
       position: static;
-      }
+    }
+    .hero__content-left::before {
+      background-image: url(../../images/hero-left-S.svg);
+      top: 0px;
+      left: 0;
+      width: 112px;
+      height: 32px;
+    }
+
+    .hero__content-left::after {
+      background-image: url(../../images/hero-right-S.svg);
+      position: absolute;
+      content: '';
+      width: 75px;
+      height: 65px;
+      top: 0;
+      right: 26px;
+      bottom: 0;
+      z-index: 0;
+    }
     .hero-img-L {
       width: 390px;
     }
@@ -1267,20 +1286,5 @@ color:rgb(68, 119, 119);
     .hero__list-order {
     width: 390px;
     }
-    .hero__content-left::before {
-    background-image: url(../../images/hero-leftbg-s.svg);
-    top: -12px;
-    left: 0;
-    width: 112px;
-    height: 32px;
-  }
-  .hero__inner::before {
-    background-image: url(../../images/hero-right-bg-s.svg);
-    width: 75px;
-    height: 65px;
-    top: 0px;
-    right: 0;
-    bottom: 0;
-    z-index: 0;
-  }
+
 }
