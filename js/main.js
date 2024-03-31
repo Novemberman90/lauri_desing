@@ -1,3 +1,10 @@
+const menuBtn = document.querySelector('.menu__btn');
+const mobilMenu = document.querySelector('.menu__list-mobile');
+
+menuBtn.addEventListener('click', ()=>{
+  menuBtn.classList.toggle('active');
+  mobilMenu.classList.toggle('open');
+});
 
 let swiper = new Swiper(".works__slider", {
     slidesPerView: 5,
