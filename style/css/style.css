@@ -1405,4 +1405,19 @@ color:rgb(68, 119, 119);
       font-weight: 800;
       left: 14px;
     }
+    /* materials */
+    .materials__title {
+      font-size: 30px;
+      margin-bottom: 30px;
+    }
+    .materials__inner {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0 10px;
+    }
+    .materials__card-text {
+      font-size: 12px;
+      font-weight: 600;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
 }
