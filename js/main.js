@@ -56,17 +56,20 @@ let swiper = new Swiper(".works__slider", {
             slidesPerView: 4,
     }
       },
-/*       breakpoints: {
-        640: {
-            slidesPerView: 3,
-          },
-        480: {
-          slidesPerView: 2,
+            breakpoints: {
+        0: {
+          slidesPerView: 1.5,
+          centeredSlides: true,
         },
-        360: {
-            slidesPerView: 1,
-          },
-      }, */
+        430:{
+          centeredSlides: true,
+          slidesPerView: 1.17,
+        },
+        768: {
+          slidesPerView: 5,
+          spaceBetween: 20,
+        }
+      },
   });
 
  
