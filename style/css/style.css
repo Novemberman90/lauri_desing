@@ -42,9 +42,9 @@ button {
     color: rgb(255, 123, 49);
 }
 .container {
-    max-width: 1540px;
+    max-width: 1560px;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0 20px;
 }
 
 .header__inner {
@@ -1037,7 +1037,7 @@ color:rgb(68, 119, 119);
     background-repeat: no-repeat;
     background-position: center;
     content: '';
-    left: 20px;
+    left: 0px;
     top: -160px;
     right: 0;
     bottom: 0;
@@ -1340,7 +1340,6 @@ color:rgb(68, 119, 119);
       margin-bottom: 30px;
       font-size: 14px;
       font-weight: 400;
-      padding: 0 5px;
     }
     .advantages__content__item-title {
       font-size: 18px;
