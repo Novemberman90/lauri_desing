@@ -48,25 +48,18 @@ let swiper = new Swiper(".works__slider", {
         nextEl: ".swiperNext",
         prevEl: ".swiperPrev",
       },
-      breakpoints: {
-        1520: {
-          slidesPerView: 4,
-          },
-          1460: {
-            slidesPerView: 4,
-    }
-      },
             breakpoints: {
         0: {
-          slidesPerView: 1.5,
+          slidesPerView: 1.17,
           centeredSlides: true,
+          spaceBetween: 20,
         },
         430:{
           centeredSlides: true,
           slidesPerView: 1.17,
         },
         768: {
-          slidesPerView: 5,
+          slidesPerView: 4,
           spaceBetween: 20,
         }
       },
