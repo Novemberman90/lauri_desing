@@ -727,6 +727,8 @@ color:rgb(68, 119, 119);
   margin-bottom: 50px;
 }
 .rewiev__inner-content {
+    display: flex;
+    justify-content: center;
     padding-bottom: 74px;
     position: relative;
 }
@@ -1426,6 +1428,9 @@ color:rgb(68, 119, 119);
       font-size: 30px;
       width: 240px;
       margin: 0 auto 30px auto;
+    }
+    .rewiev__inner-content {
+      display: block;
     }
     .rewiev__slider {
       width: 430px;
