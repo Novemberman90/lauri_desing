@@ -166,6 +166,7 @@ button {
 }
 .hero__content-left {
     max-width: 830px;
+    width: 100%;
     padding: 0;
     position: relative;
 }
@@ -762,6 +763,9 @@ color:rgb(68, 119, 119);
     height: 44px;
     left: -57px;
     top: 0;
+}
+.rewiev__inner-link {
+  display: none;
 }
 .dnwork {
     padding-top: 140px;
