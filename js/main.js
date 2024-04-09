@@ -26,7 +26,6 @@ let swiper = new Swiper(".works__slider", {
         430:{
           centeredSlides: true,
           slidesPerView: 1.7,
-            spaceBetween: 20,
         },
         768: {
           slidesPerView: 5,
