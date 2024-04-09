@@ -1,9 +1,36 @@
 const menuBtn = document.querySelector('.menu__btn');
 const mobilMenu = document.querySelector('.menu__list-mobile');
 
-menuBtn.addEventListener('click', ()=>{
-  menuBtn.classList.toggle('active');
-  mobilMenu.classList.toggle('open');
+if(menuBtn) {
+  menuBtn.addEventListener('click', ()=>{
+    document.body.classList.toggle('_lock');
+    menuBtn.classList.toggle('active');
+    mobilMenu.classList.toggle('open');
+  });
+}
+
+const closeMenu = ()=>{
+  document.body.classList.remove('_lock');
+  menuBtn.classList.remove('active');
+  mobilMenu.classList.remove('open');
+};
+
+document.body.addEventListener('click', (e)=>{
+  if (
+    e.target.closest('.menu__btn') == null &&
+    e.target.closest('.menu__list-mobile') != mobilMenu
+  ) 
+  {closeMenu()}
+});
+
+mobilMenu.addEventListener('click', ()=> {
+  if(mobilMenu.classList.contains('open')) {
+    closeMenu()
+  } else {
+    document.body.classList.remove('_lock');
+    menuBtn.classList.remove('active');
+    mobilMenu.classList.remove('open');
+  }
 });
 
 let swiper = new Swiper(".works__slider", {
