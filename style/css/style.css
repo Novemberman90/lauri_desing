@@ -848,9 +848,6 @@ color:rgb(68, 119, 119);
     left: 0;
     z-index: -1;
 }
-.send__inner {
-  display: flex;
-}
 .send__inner-left {
   max-width: 693px;
   padding: 50px 0;
@@ -886,7 +883,8 @@ color:rgb(68, 119, 119);
 }
 
 .send__form {
-    width: 493px;
+    max-width: 493px;
+    width: 100%;
     padding-top: 40px;
 }
 
@@ -1289,7 +1287,7 @@ color:rgb(68, 119, 119);
       width: 75px;
       height: 65px;
       top: 0;
-      right: 26px;
+      right: 20px;
       bottom: 0;
       z-index: 0;
     }
@@ -1472,14 +1470,15 @@ color:rgb(68, 119, 119);
     }
     .rewiev__inner-link {
       display: inline-block;
-      width: 390px;
+      max-width: 390px;
+      width: 100%;
       text-align: center;
       position: relative;
       color: rgb(68, 119, 119);
       font-size: 28px;
       font-weight: 700;
       line-height: 1.6;
-      padding: 14px 63px 14px 63px;
+      padding: 14px 63px 14px 110px;
       border: 2px solid rgb(68, 119, 119);
       border-radius: 16px;
       cursor: pointer;
@@ -1490,15 +1489,12 @@ color:rgb(68, 119, 119);
       position: absolute;
       width: 37px;
       height: 37px;
-      left: 56px;
+      left: 67px;
       top: 18px;
     }
     .rewiev__inner-link:hover {
       border: 2px solid rgb(136, 183, 183);
       color:rgb(136, 183, 183);
-    }
-    .opt__btn:active::before {
-
     }
     .rewiev__bottom-list {
       display: none;
@@ -1549,10 +1545,9 @@ color:rgb(68, 119, 119);
     width: 389px;
     }
     .send__left-subtitle {
-      font-size: 14px;
+      font-size: 13px;
     }
     .send__form {
-      width: 390px;
       padding-top: 255px;
     }
     .send__form-name,
@@ -1653,5 +1648,14 @@ color:rgb(68, 119, 119);
   }
   .footer__copy {
     margin-top: 72px;
+  }
+}
+
+@media (max-width: 390px) {
+.hero__content-left::after {
+    right: 20px;
+  }
+  .hero__title {
+    font-size: 30px;
   }
 }
