@@ -1245,8 +1245,11 @@ color:rgb(68, 119, 119);
   .menu__list-mobile.open {
       transform: translateY(0%);
     }
-    .menu__item-mobil {
+    .menu__list-mobile .menu__item-mobil + .menu__item-mobil {
       padding: 24px 0;
+    }
+    .menu__item-mobil {
+     padding-bottom: 24px;
       border-bottom: 1px solid #d7d7d7;
       width: 390px;
       margin: 0 auto;
