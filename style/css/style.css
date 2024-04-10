@@ -83,23 +83,29 @@ button {
 }
 .menu__btn::before {
   top: 0;
+  left: 0;
 }
 .menu__btn span {
   top: 11px;
+  left: 0;
 }
 .menu__btn::after {
   bottom: 0;
+  left: 0;
 }
 .menu__btn.active::before{
   top: 11px;
   rotate: 45deg;
+  left: 0;
 }
 .menu__btn.active span {
   width: 0;
+  left: 0;
 }
 .menu__btn.active::after {
   bottom: 11px;
   rotate: -45deg;
+  left: 0;
 }
 .menu__list {
     display: flex;
@@ -110,6 +116,11 @@ button {
 }
 .menu__item-link:hover {
     color: rgb(255, 123, 49);
+}
+.menu__list .menu__item:last-of-type {
+  display: flex;
+  align-items: center;
+  gap: 0 40px;
 }
 .header__phone-btn {
   width: 237px;
@@ -1228,18 +1239,24 @@ color:rgb(68, 119, 119);
       transition: transform 0.7s;
       z-index: 5;
     }
-
+    .menu__list-mobile .menu__item-mobil:last-of-type {
+          flex-direction: column-reverse;
+          border: none;
+    }
   .menu__list-mobile.open {
       transform: translateY(0%);
     }
     .menu__item-mobil {
-      padding-bottom: 24px;
+      padding: 24px 0;
       border-bottom: 1px solid #d7d7d7;
       width: 390px;
       margin: 0 auto;
     }
     .header__phone-btn {
       margin: 0 auto;
+    }
+    .language__menu {
+     margin: 12px 0 6px 0;
     }
     .hero {
       padding: 0 0 100px 0;
@@ -1542,7 +1559,7 @@ color:rgb(68, 119, 119);
       font-size: 14px;
       height: 68px;
     }
-    .form__label-file {
+    .form__load-file+.form__label-file {
       height: 68px;
     }
     .form__file-name {
