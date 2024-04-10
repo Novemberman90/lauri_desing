@@ -57,7 +57,6 @@ let swiper = new Swiper(".works__slider", {
         },
         768: {
           slidesPerView: 5,
-          spaceBetween: 20,
         }
       },
   });
@@ -79,15 +78,13 @@ let swiper = new Swiper(".works__slider", {
         0: {
           slidesPerView: 1.17,
           centeredSlides: true,
-          spaceBetween: 20,
         },
         430:{
-          centeredSlides: true,
           slidesPerView: 1.17,
+          centeredSlides: true,
         },
         768: {
           slidesPerView: 4,
-          spaceBetween: 20,
         }
       },
   });
