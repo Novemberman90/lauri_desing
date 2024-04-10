@@ -33,6 +33,7 @@ mobilMenu.addEventListener('click', ()=> {
   }
 });
 
+/* sliders */
 let swiper = new Swiper(".works__slider", {
     slidesPerView: 5,
     spaceBetween: 20,
@@ -91,7 +92,7 @@ let swiper = new Swiper(".works__slider", {
       },
   });
 
- 
+ /* form */
   const inputs = document.querySelectorAll( '.form__load-file' );
   inputs.forEach.call( inputs, function( input )
   {
