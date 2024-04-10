@@ -1651,7 +1651,7 @@ color:rgb(68, 119, 119);
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 400px) {
 .hero__content-left::after {
     right: 20px;
   }
