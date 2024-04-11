@@ -3,6 +3,7 @@ const mobilMenu = document.querySelector('.menu__list-mobile');
 
 if(menuBtn) {
   menuBtn.addEventListener('click', ()=>{
+    document.documentElement.classList.toggle('_lock');
     document.body.classList.toggle('_lock');
     menuBtn.classList.toggle('active');
     mobilMenu.classList.toggle('open');
@@ -10,6 +11,7 @@ if(menuBtn) {
 }
 
 const closeMenu = ()=>{
+  document.documentElement.classList.remove('_lock');
   document.body.classList.remove('_lock');
   menuBtn.classList.remove('active');
   mobilMenu.classList.remove('open');
@@ -27,6 +29,7 @@ mobilMenu.addEventListener('click', ()=> {
   if(mobilMenu.classList.contains('open')) {
     closeMenu()
   } else {
+    document.documentElement.classList.remove('_lock');
     document.body.classList.remove('_lock');
     menuBtn.classList.remove('active');
     mobilMenu.classList.remove('open');
@@ -76,11 +79,11 @@ let swiper = new Swiper(".works__slider", {
       },
             breakpoints: {
         0: {
-          slidesPerView: 1.17,
+          slidesPerView: 1.2,
           centeredSlides: true,
         },
         430:{
-          slidesPerView: 1.17,
+          slidesPerView: 1.5,
           centeredSlides: true,
         },
         768: {
