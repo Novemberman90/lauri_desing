@@ -1238,7 +1238,7 @@ color:rgb(68, 119, 119);
       background-color: #fff;
       display: block;
       text-align: center;
-      padding-top: 85px;
+      padding-top: 75px;
       transition: transform 0.7s;
       z-index: 5;
     }
@@ -1246,7 +1246,7 @@ color:rgb(68, 119, 119);
           flex-direction: column-reverse;
           border: none;
     }
-  .menu__list-mobile.open {
+    .menu__list-mobile.open {
       transform: translateY(0%);
     }
     .menu__list-mobile .menu__item-mobil + .menu__item-mobil {
@@ -1255,7 +1255,6 @@ color:rgb(68, 119, 119);
     .menu__item-mobil {
      padding-bottom: 24px;
       border-bottom: 1px solid #d7d7d7;
-      width: 390px;
       margin: 0 auto;
     }
     .header__phone-btn {
