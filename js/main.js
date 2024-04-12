@@ -55,8 +55,8 @@ let swiper = new Swiper(".works__slider", {
           centeredSlides: true,
         },
         430:{
+          slidesPerView: 1.5,
           centeredSlides: true,
-          slidesPerView: 1.7,
         },
         768: {
           slidesPerView: 5,
@@ -79,11 +79,11 @@ let swiper = new Swiper(".works__slider", {
       },
             breakpoints: {
         0: {
-          slidesPerView: 1.2,
+          slidesPerView: 1.3,
           centeredSlides: true,
         },
         430:{
-          slidesPerView: 1.5,
+          slidesPerView: 1.3,
           centeredSlides: true,
         },
         768: {
